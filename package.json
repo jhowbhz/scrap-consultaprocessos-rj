@@ -1,0 +1,9 @@
+{
+  "name": "scrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^22.7.1"
+  }
+}

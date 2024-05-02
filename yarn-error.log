@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Root\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add puppeter
+
+PATH: 
+  C:\Program Files\ImageMagick-7.1.1-Q16-HDRI;c:\program files\graphicsmagick-1.3.42-q16;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files (x86)\Embarcadero\Studio\22.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\22.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Bpl\Win64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\ProgramData\ComposerSetup\bin;C:\Users\Root\AppData\Local\Android\Sdk\platform-tools;C:\Users\Root\AppData\Local\Android\Sdk;C:\Program Files (x86)\cloudflared\.;C:\Program Files\dotnet\;C:\gradle-7.6\bin;C:\Users\Root\AppData\Local\Programs\Python\Python311;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\nodejs\;C:\Users\Root\AppData\Local\Microsoft\WindowsApps;c:\php;C:\Users\Root\AppData\Roaming\Composer\vendor\bin;C:\Users\Root\AppData\Local\Android\Sdk;C:\Users\Root\AppData\Local\Docker Labs Debug Tools\bin;C:\Users\Root\AppData\Local\GitHubDesktop\bin;C:\Users\Root\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\Root\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  21.7.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/puppeter: Not found
+      at params.callback [as _callback] (C:\Users\Root\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at self.callback (C:\Users\Root\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:519:28)
+      at Request.<anonymous> (C:\Users\Root\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:519:28)
+      at IncomingMessage.<anonymous> (C:\Users\Root\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:633:28)
+      at IncomingMessage.emit (node:events:531:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "scrap",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
