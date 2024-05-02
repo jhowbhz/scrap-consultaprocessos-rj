@@ -10,12 +10,14 @@ const app = express();
 
 app.get('/', (req, res) => {
 
+    const { f_77, f_89, f_80, f_92, f_102 } = req.query;
+
     let params = {
-        'F_77': '12345678901',
-        'F_89': '123456',
-        'F_80': '123456',
-        'F_92': '2020',
-        'F_102': '123456'
+        'F_77': f_77,
+        'F_89': f_89,
+        'F_80': f_80,
+        'F_92': f_92,
+        'F_102': f_102
     }
 
     // call the start method from ScrapController

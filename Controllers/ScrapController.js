@@ -5,7 +5,7 @@ const fs = require('fs');
 
 class ScrapController {
 
-    static async start() {
+    static async start(params) {
 
         // cookie de sessão
         const cookie = {
@@ -73,11 +73,11 @@ class ScrapController {
         await frame.evaluate((gabarito_captcha) => {
 
             // preencher os campos do formulário
-            document.querySelector('input[id="F_77"]').value = '12345678901';
-            document.querySelector('input[id="F_89"]').value = '123456';
-            document.querySelector('input[id="F_80"]').value = '123456';
-            document.querySelector('input[id="F_92"]').value = '2020';
-            document.querySelector('input[id="F_102"]').value = '123456';
+            document.querySelector('input[id="F_77"]').value = params.f_77;
+            document.querySelector('input[id="F_89"]').value = params.f_89;
+            document.querySelector('input[id="F_80"]').value = params.f_80;
+            document.querySelector('input[id="F_92"]').value = params.f_92;
+            document.querySelector('input[id="F_102"]').value = params.f_102;
             
             // pegar todas as imagens do site
             const imgs = document.querySelectorAll('img');
