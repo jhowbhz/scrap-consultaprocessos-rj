@@ -28,11 +28,11 @@ curl_setopt_array($curl, array(
     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
     CURLOPT_CUSTOMREQUEST => 'POST',
     CURLOPT_POSTFIELDS =>'{
-        "F_77": "1234567",
-        "F_89": "123456789",
-        "F_80": "12345678910",
-        "F_92": "12345678911",
-        "F_102": "2022"
+        "origem": "1234567",
+        "numero": "123456789",
+        "complemento": "12345678910",
+        "ano": "2022",
+        "email": "email@tantofaz.com"
     }',
     CURLOPT_HTTPHEADER => array(
         'Content-Type: application/json'

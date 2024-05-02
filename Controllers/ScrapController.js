@@ -73,11 +73,11 @@ class ScrapController {
         await frame.evaluate((gabarito_captcha) => {
 
             // preencher os campos do formulário
-            document.querySelector('input[id="F_77"]').value = params.f_77;
-            document.querySelector('input[id="F_89"]').value = params.f_89;
-            document.querySelector('input[id="F_80"]').value = params.f_80;
-            document.querySelector('input[id="F_92"]').value = params.f_92;
-            document.querySelector('input[id="F_102"]').value = params.f_102;
+            document.querySelector('input[id="F_77"]').value = params.origem;
+            document.querySelector('input[id="F_89"]').value = params.numero;
+            document.querySelector('input[id="F_80"]').value = params.complemento;
+            document.querySelector('input[id="F_92"]').value = params.ano;
+            document.querySelector('input[id="F_102"]').value = params.email;
             
             // pegar todas as imagens do site
             const imgs = document.querySelectorAll('img');
