@@ -8,7 +8,12 @@ const { ScrapController } = require('./Controllers/ScrapController');
 
 const app = express();
 
+
 app.get('/', (req, res) => {
+    res.send('Welcome to the API');
+})
+
+app.post('/api', (req, res) => {
 
     const { f_77, f_89, f_80, f_92, f_102 } = req.query;
 
