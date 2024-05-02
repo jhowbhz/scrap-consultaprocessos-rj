@@ -2,17 +2,28 @@
 
 Esse é apenas um caso de estudo sobre puppeteer
 
-# Site alvo
+## Site alvo
 https://www.consultaprocessos.rj.gov.br/UPOWEB/servlet/StartCISPage?PAGEURL=/cisnatural/NatLogon.html&xciParameters.natsession=Consulta_UPO
 
-# Objetivo
+## Objetivo
 - Ignorar o captcha do Google
 - Matar o captcha interno
 - Obter o resultado final através de webscrap
 
 
-# Rota da API
+## Rotas da API
 
+GET
+```
+http://localhost:3000/
+```
+
+POST
+```
+http://localhost:3000/api
+```
+
+## Como consumir com PHP
 ```php
 <?php
 
